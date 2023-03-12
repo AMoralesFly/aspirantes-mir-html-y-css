@@ -1,7 +1,6 @@
-
 .contenedor_formulario {
-    margin: 0 auto;
-    max-width: 1200px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .formulario {
@@ -16,36 +15,43 @@
 }
 
 .texto-formulario {
- justify-content: center;
+  justify-content: center;
 }
 
-.input label,.terminos{
- display: block;
- padding: 7px;
- 
-}
-
-.input input, select {
- width: 100%;
+.input label,
+.terminos {
+  display: block;
+  padding: 7px;
 
 }
+
+.input input,
+select {
+  width: 100%;
+}
+
+.input select {
+  width: 103%;
+
+}
+
 
 .input input[type="submit"] {
-position: relative;
-width: 30%;
-left: 70%;
-padding: 5px 15px 5px 15px;
+  position: relative;
+  width: 30%;
+  left: 70%;
+  padding: 5px 15px 5px 15px;
 
 }
 
 @media(min-width:500px) {
-.formulario {
-width: 300px;
-}
+  .formulario {
+    width: 300px;
+  }
 }
 
-@media(max-width:499px)
-{
-.formulario {
-    width: 100%;
-    }}
+@media(max-width:499px) {
+  .formulario {
+    width: 88%;
+  }
+}
